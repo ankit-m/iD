@@ -7,7 +7,7 @@ locale.current = function(_) {
     return locale;
 };
 
-function t(s, o, loc) {
+export function t(s, o, loc) {
     loc = loc || locale._current;
 
     var path = s.split(".").reverse(),
